@@ -22,6 +22,6 @@ Hashmap O(N**2)
     -  成立條件四: i>0 且 j < len(arr) 且 backend[j + 1]= 1 且 backend[j + 1]=1 且 arr[j + 1] > arr[i - 1]。
 
 ```python
-# Example code
+# PyTest
 pytest "brute force O(N3).py"
 pytest "hashmap O(N2).py"
